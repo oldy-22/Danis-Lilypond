@@ -217,7 +217,7 @@ melodyOne = \relative f' {
 	 f4 s4 es4 s4 | % 78
 	 a,4 s2. | % 79 
 	 s4 f' es8 [ es16 d ] es4 | % 80
-	 fis8 [ a16 g ] a4  a8 [ g16 fis ] g8 s8 | % 81
+	 fis8 [ a16 g ] a4  a8-0 [ g16 fis ] g8 s8 | % 81
 	 cis4 s c8 bes [ bes bes ] | % 82
 	 a8 s a8 s d8 s g,8 s | % 83
 	 f8 s f8 [ d'] d [c16 bes ] c8 c | % 84
