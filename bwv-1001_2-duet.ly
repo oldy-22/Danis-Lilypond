@@ -151,27 +151,27 @@ melodyOne = \relative f' {
 	 bes8 r8  bes8 [ b ] g16 [ (f) f (es) ] es [ (d) d (c) ] | % 12
 	 c4 s16 bes [ a g ] a4 d16 [ g a fis ] | % 13
 	 g8 s8 s2. | % 14
-	 \stemDown r8 g'8 [ g g ] g [ f16 es ] f8 [ d ] | % 15
+	 \stemDown r8 g'8-4 [ g g ] g [ f16 es ] f8 [ d ] | % 15
 	 es8 [ es16 d ] es8 [ f16 es ] d4 g | % 16
-	 g8 f [ f f ] f [ es16 d ] es8 [ c ] | % 17
+	 g8 f [ f f ] f [ es16 d ] es8 [ c-2 ] | % 17
 	 d8 [ d16 c ] d8 [ es16 d ] c4 f | % 18
 	 f8 [ es16 d ] es8 [ f16 es ] d4 g | % 19
 	 g8 [ f16 e ] f8 [ g16 f ] \stemUp e8 s e s | % 20
 	 f s cis s8 s2 | % 21
 	 \stemUp d8 [ d ] d [ cis16 b ] cis4 d8 [ a ] | % 22
 	 bes4  s8 a8 a [ g16 f ] g8 [ e ] | % 23
-	 f16 [ e d e ] e8. [ d16 ] d8 d [ d d ] | % 24
+	 f16 [ e d e ] e8. [ d16 ] d8-0 d-4 [ d d ] | % 24
 	 s1 | % 25
 	 s2. e!4 | % 26
 	 fis4 g g8 [ f16 e ] f8 [ g16 f ] | % 27
-	 e4 s e d' | % 28
+	 e4 s e d'-2 | % 28
 	 d4 s8 d8 cis4 s8 d8 | % 29 
 	 d4 d d cis | % 30
 	 c b bes a | % 31
 	 a g g s8 g8 | % 32
-	 f4 s8 g'8 f8 s8 fis8 s8 | % 33
+	 f4 s8 g'-4 f8 s8 fis8 s8 | % 33
 	 \stemDown g8 [ (f) ] f [ (e) ] e [ (f) ] f [ (cis) ] | % 34
-	 cis8 [ (a) ] d [<d g,> ] a [ g a f ] | % 35
+	 cis8 [ (a) ] d-2 [<d g,> ] a [ g a f ] | % 35
 	 g8 [ f g e ] f [ e f d ] | % 36
 	 \stemUp d'8 [ cis  d  b ] cis2 | % 37
 	 d8 [ cis d e ] f [ g f e ] | % 38
@@ -188,7 +188,7 @@ melodyOne = \relative f' {
 	 as as | % 49
 	 a! a | % 50
 	 g s | % 51
-	 s2. d''8 [ f ]  | % 52
+	 s2. d''8 [ f-5 ]  | % 52
 	 es,16 [ d' (g) b,] c8 [c] c4 b | % 53
 	 g f fis d | % 54
 	 es8 s8 s4  s2 | % 55
@@ -270,7 +270,7 @@ melodyOne = \relative f' {
 	 a4 r8 a'8 bes4 a | % 33
 	 g4 s2. | % 34
 	 s2 e'2 | % 35
-	 e2 d2 | % 36
+	 e2 d2^3 | % 36
     	 e,2 a2 | % 37
 	 d,2 d2 | % 38
 	 d2 d2 | % 39
